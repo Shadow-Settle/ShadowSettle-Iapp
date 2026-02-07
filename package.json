@@ -1,0 +1,23 @@
+{
+  "name": "shadowsettle-iapp",
+  "version": "1.0.0",
+  "description": "ShadowSettle confidential settlement logic — runs in iExec TEE (SGX/TDX). Bulk eligibility and payout computation.",
+  "type": "module",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "node test/run-local.js",
+    "test:file": "node test/run-local.js test/dataset-example.json",
+    "test:iapp": "node scripts/serve-and-test.js",
+    "test:iapp:python": "node scripts/serve-and-test-python.js",
+    "serve:dataset": "node scripts/serve-dataset.js",
+    "build:docker": "docker build -t shadowsettle/settlement:latest .",
+    "build:docker:amd64": "docker buildx build --platform linux/amd64 -t shadowsettle/settlement:latest --load .",
+    "digest": "node scripts/docker-digest.js",
+    "prepare:deploy": "node scripts/update-iexec.js",
+    "check:iapp-api": "node scripts/check-iapp-api.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

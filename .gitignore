@@ -1,0 +1,7 @@
+node_modules
+test/workspace
+input
+output
+.env
+iapp.config.json
+*.log

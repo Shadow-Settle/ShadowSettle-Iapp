@@ -1,0 +1,12 @@
+{
+  "app": {
+    "owner": "0x0000000000000000000000000000000000000000",
+    "name": "shadowsettle-settlement",
+    "type": "DOCKER",
+    "multiaddr": "jagadeesh2606/shadowsettle-settlement:latest",
+    "checksum": "0xc30d20ffd38d1bae1d83ce637c19f3f0188ab0a33e65d64517b3a3a314d04e22",
+    "mrenclave": {
+      "framework": "sconify"
+    }
+  }
+}

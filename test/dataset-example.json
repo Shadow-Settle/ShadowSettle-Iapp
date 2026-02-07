@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "minScore": 70,
+    "maxRisk": 0.3
+  },
+  "participants": [
+    { "wallet": "0x742d35Cc6634C0532925a3b844Bc9e7631Eb5c9f", "score": 85, "risk": 0.2 },
+    { "wallet": "0x9a3f2b5c8e1d4a7c9f2e5b8a1d4c7f9e2b5a8c1d", "score": 60, "risk": 0.1 },
+    { "wallet": "0x1c5e7a9b3d6f8e2a4c7b9d1e4a6c8f2b5d7e9a3c", "score": 90, "risk": 0.25 }
+  ],
+  "totalPool": 1000
+}
