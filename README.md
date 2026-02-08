@@ -1,6 +1,8 @@
-# ShadowSettle iApp
+# shadowsettle_iapp
 
-Confidential settlement logic for ShadowSettle. Runs inside an iExec TEE (SGX/TDX). One task, many participants (bulk processing).
+**ShadowSettle** confidential settlement logic — runs inside an iExec TEE (SGX/TDX). One task, many participants (bulk processing).
+
+Part of the [ShadowSettle](https://github.com/ShadowSettle/ShadowSettle) monorepo.
 
 ## Input (dataset)
 
